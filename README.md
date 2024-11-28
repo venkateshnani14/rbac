@@ -18,6 +18,6 @@ First, login as an admin with random credentials to see the admin dashboard.
 You can view the users and their permissions.
 Admins have access to permission (read, write and delete) 
 Users have access to only read and write but not delete.
-Go to homepage button takes you to the homepage where the data exists.
+The ACCESS DATA button takes you to the homepage where the data exists.
 Only admins can be able to delete the data whereas the users can still read and write them.
 
