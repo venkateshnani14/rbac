@@ -1,1 +1,0 @@
-import { LoginCredentials } from "../types/auth";

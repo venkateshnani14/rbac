@@ -52,7 +52,7 @@ const AdminDashboard = () => {
     {
         accessorKey: "active",
         header: "Active status",
-        cell: ({ row }) => {
+        cell: () => {
           const [isChecked, setIsChecked] = React.useState(false);
           return(
             <div className="flex items-center justify-between">

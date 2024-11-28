@@ -4,7 +4,7 @@ import * as React from 'react'
 import { Button } from "@/components/ui/button";
 
 
-const LoginPage = (e) => {
+const LoginPage = () => {
     const [name, setName] = React.useState("");
     const [password, setPassword] = React.useState("");
     const [role, setRole] = React.useState("");

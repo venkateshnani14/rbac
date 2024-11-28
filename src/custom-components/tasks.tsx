@@ -1,10 +1,9 @@
 import { useAuth } from '@/helpers/AuthProvider'
 import { Edit, Trash } from 'lucide-react'
-import * as React from 'react'
 
 const Tasks = () => {
     const {currentRole} = useAuth();
-    const [tasks, setTasks] = React.useState([
+    const tasks = [
         { id: 1, title: "Fix memory leak in user session handling" },
 
         { id: 2, title: "Optimize database query for user reports" },
@@ -13,7 +12,7 @@ const Tasks = () => {
 
         { id: 4, title: "Refactor authentication middleware" },
         { id: 5, title: "Implement error logging for production" },
-      ])
+      ]
 
   return (
     <div className='w-[95vw] sm:w-2/3'>

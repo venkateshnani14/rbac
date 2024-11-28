@@ -2,9 +2,8 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Checkbox } from '@/components/ui/checkbox'
 import * as React from 'react'
-import UserStore from '@/state-management/users-store'
 
-const EditUser = ({data,isCreating}:{data:any,isCreating:boolean}) => {
+const EditUser = ({data}:{data:any,isCreating:boolean}) => {
   const [name, setName] = React.useState(data?.userName??'');
   const [email, setEmail] = React.useState(data?.email??'');
   const [defaultRole, setDefaultRole] = React.useState(data?.defaultRole??'');
@@ -13,7 +12,6 @@ const EditUser = ({data,isCreating}:{data:any,isCreating:boolean}) => {
     write:data?.permissions.write??false,
     delete:data?.permissions.delete??false
   })
-  const {users, updateUsers} = UserStore();
   return (
     <div>
         <form>
