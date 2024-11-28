@@ -14,6 +14,8 @@ This application has currently 2 roles.
 1. ADMIN
 2. USER
 
+#Note : If you run into any issue, please try to clear the application-cache in the browser.
+
 First, login as an admin with random credentials to see the admin dashboard.
 You can view the users and their permissions.
 Admins have access to permission (read, write and delete) 
